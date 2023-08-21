@@ -1,0 +1,43 @@
+body {
+  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("../img/bgi-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.coffee_btn {
+  width: 0;
+  height: 0;
+  border-top: 40px solid transparent;
+  border-left: 80px solid green;
+  border-bottom: 40px solid transparent;
+
+  &:hover {
+    position: relative;
+    left: 3px;
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-left: 80px solid rgb(120, 222, 120);
+    border-bottom: 40px solid transparent;
+  }
+}
+
+.coffee-block {
+  background-color: #7fbe6b;
+  border: 1px solid black;
+  border-radius: 2px;
+  margin-bottom: 1.75rem;
+  filter: drop-shadow(5px 0 2 px rgb(223, 214, 214))
+}
+
+.coffee-block span {
+  font-size: 1.25rem;
+  padding-left: 1rem;
+  line-height: 80px;
+  vertical-align: middle;
+  font-weight: 700;
+}
+
